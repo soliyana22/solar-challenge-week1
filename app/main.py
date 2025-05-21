@@ -2,13 +2,14 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import util
 
 # Load data
 @st.cache_data
 def load_data():
-    benin = pd.read_csv('data/benin_clean.csv')
-    togo = pd.read_csv('data/togo_clean.csv')
-    sl = pd.read_csv('data/sierra_leone_clean.csv')
+    benin = pd.read_csv('../data/benin_clean.csv')
+    togo = pd.read_csv('../data/togo_clean.csv')
+    sl = pd.read_csv('../data/sierraleone-bumbuna_clean.csv')
 
     benin['Country'] = 'Benin'
     togo['Country'] = 'Togo'
