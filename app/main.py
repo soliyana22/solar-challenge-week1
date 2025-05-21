@@ -1,7 +1,6 @@
 import streamlit as st
-import utils
 import pandas as pd
-
+import utils
 st.set_page_config(page_title="Solar Energy Dashboard", layout="wide")
 
 st.title("🌞 Solar Energy Dashboard")
