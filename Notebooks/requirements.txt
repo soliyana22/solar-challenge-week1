@@ -1,2 +1,7 @@
-﻿python-dotenv==1.0.0
-pytest==7.4.0
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
+streamlit
