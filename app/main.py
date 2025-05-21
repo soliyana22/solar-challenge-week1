@@ -1,5 +1,5 @@
 import streamlit as st
-import util
+import utils
 
 st.set_page_config(page_title="Solar Energy Dashboard", layout="wide")
 
