@@ -1,5 +1,6 @@
 import streamlit as st
 import utils
+import pandas as pd
 
 st.set_page_config(page_title="Solar Energy Dashboard", layout="wide")
 
